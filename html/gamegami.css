@@ -8,16 +8,31 @@ body {
    min-height:100%;
    min-width: 100%;
    background: url('http://subtlepatterns.com/patterns/diagonal-noise.png') repeat;
+
 }
 #header {
    background:#ffffff;
    padding:10px;
 }
 
+#header-border {
+   border-top: 2px solid #999999;
+   -webkit-border-radius: .5em; 
+   -moz-border-radius: .5em;
+   border-radius: .5em;
+}
+
 #pagecontent {
    height: 800px;
    width: 850px;
    background: #ffffff;
+   border: 2px solid #999999;
+   -webkit-border-radius: .5em; 
+   -moz-border-radius: .5em;
+   border-radius: .5em;
+   -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 }
 #body {
    padding:10px;
