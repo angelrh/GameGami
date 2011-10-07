@@ -3,6 +3,7 @@ body {
    margin:0;
    padding:0;
    height:100%;
+   font: 13px/17px 'helvetica neue', arial;
 }
 #container {
    min-height:100%;
@@ -15,7 +16,7 @@ body {
 }
 
 #pagecontent {
-   height: 800px;
+   height: 600px;
    width: 850px;
    background: #ffffff;
 }
