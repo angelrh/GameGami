@@ -60,7 +60,7 @@ body {
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#94f456', endColorstr='#69ae3c');
 	font-size: 18px;
 	font-weight: bold;
-	height: 50px;
+	height: 40px;
 	padding: 0px 10px 0px 10px;
 
 }
@@ -73,7 +73,7 @@ body {
 
 .div_button {
 	position: relative;
-	top: 50%; 
+	top: 20%; 
 }
 
 .dev_box {
@@ -84,8 +84,8 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 350px;
-	height: 300px;
+	width: 250px;
+	height: 200px;
 	margin: 20px 10px 0px 20px;
 	float: left;
 	background: #FFFFFF;
@@ -100,8 +100,8 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 350px;
-	height: 300px;
+	width: 250px;
+	height: 200px;
 	margin: 20px 20px 0px 10px;
 	float: right;
 	background: #FFFFFF;
