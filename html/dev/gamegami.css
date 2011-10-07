@@ -1,0 +1,142 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   min-width: 100%;
+   background: url('http://subtlepatterns.com/patterns/diagonal-noise.png') repeat;
+
+}
+#header {
+   background:#ffffff;
+   padding:10px;
+}
+
+#header-border {
+   border-top: 2px solid #999999;
+   -webkit-border-radius: .5em; 
+   -moz-border-radius: .5em;
+   border-radius: .5em;
+}
+
+#pagecontent {
+   height: 800px;
+   width: 850px;
+   background: #ffffff;
+   border: 2px solid #999999;
+   -webkit-border-radius: .5em; 
+   -moz-border-radius: .5em;
+   border-radius: .5em;
+   -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   width:100%;
+   height:150px;   /* Height of the footer */
+   background: url('http://subtlepatterns.com/patterns/dark_brick_wall.png') repeat;
+}
+
+
+.home_button {
+
+	border: 2px solid #000000;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#94f456), to(#69ae3c));
+	background: -moz-linear-gradient(top,  #94f456,  #69ae3c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#94f456', endColorstr='#69ae3c');
+	font-size: 18px;
+	font-weight: bold;
+	height: 50px;
+	padding: 0px 10px 0px 10px;
+
+}
+
+.home_button:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#79c845), to(#69ae3c));
+	background: -moz-linear-gradient(top,  #79c845,  #69ae3c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#79c845', endColorstr='#69ae3c');
+}
+
+.div_button {
+	position: relative;
+	top: 50%; 
+}
+
+.dev_box {
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	border: 2px solid #999999;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	width: 350px;
+	height: 300px;
+	margin: 20px 10px 0px 20px;
+	float: left;
+	background: #FFFFFF;
+
+}
+
+.game_box {
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	border: 2px solid #999999;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	width: 350px;
+	height: 300px;
+	margin: 20px 20px 0px 10px;
+	float: right;
+	background: #FFFFFF;
+}
+
+#mainlogo {
+	height: 150px;
+	width: 199px;
+}
+
+.dev_main {
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	border: 2px solid #999999;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	width: 450px;
+	height: 300px;
+	background: #FFFFFF;
+}
+
+.game_main {
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	border: 2px solid #999999;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	width: 450px;
+	height: 300px;
+	background: #FFFFFF;
+}
+
+h1 {
+	margin: 0px 0px 0px 0px;
+}
