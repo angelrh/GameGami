@@ -5,21 +5,25 @@ body {
    height:100%;
 }
 #container {
-   min-height:70%;
-   position:relative;
+   min-height:100%;
+   min-width: 100%;
    background: url('http://subtlepatterns.com/patterns/diagonal-noise.png') repeat;
 }
 #header {
    background:#ffffff;
    padding:10px;
 }
+
+#pagecontent {
+   height: 800px;
+   width: 850px;
+   background: #ffffff;
+}
 #body {
    padding:10px;
    padding-bottom:60px;   /* Height of the footer */
 }
 #footer {
-   position:absolute;
-   bottom:0;
    width:100%;
    height:150px;   /* Height of the footer */
    background: url('http://subtlepatterns.com/patterns/dark_brick_wall.png') repeat;
@@ -64,11 +68,12 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 450px;
+	width: 350px;
 	height: 300px;
 	margin: 20px 10px 0px 20px;
 	float: left;
 	background: #FFFFFF;
+
 }
 
 .game_box {
@@ -79,7 +84,7 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 450px;
+	width: 350px;
 	height: 300px;
 	margin: 20px 20px 0px 10px;
 	float: right;
