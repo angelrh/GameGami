@@ -129,9 +129,10 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 450px;
-	height: 300px;
+	width: 500px;
+	height: 320px;
 	background: #FFFFFF;
+	margin-top: 20px;
 }
 
 .game_main {
