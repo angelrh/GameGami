@@ -28,9 +28,19 @@
 <div id='mainlogo' name='GameGami'><img src='logo.png'></div></div>
 <div id='header-border'></div>
 
-<div  align='center'><div class='game_main'><h3 align='center'>Gamers</h3><div class='div_button' align='center'><a href="http://www.gamegami.com"><button class='home_button'>Back</button></a></div></div></div>
+<div  align='center'><div class='dev_main'><h3 align='center'>Gamers</h3><form id='emailform' name="input" action="formsubmit.php" method="post">
+<strong>Email Address:</strong> <input type="text" name="useremail" id="useremail" />
+<input type="submit" value="Submit" id="submit"/>
+</form>
+<script>
+$('#submit').click(function() {
+	alert('Thanks for your interest! We will contact you with regular updates about GameGami');
+});
+</script>
+<div class='div_button' align='center'><a href="http://www.gamegami.com"><button class='home_button'>Back</button></a></div></div></div>
 </div>
-<div id="footer">
+</div>
+<div id="footer" align='center'>
     <p class="links">
     <div id="social">
 <div id="fb-root"></div>
