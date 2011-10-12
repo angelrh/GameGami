@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'db99900_gamegami');
+define('DB_NAME', 'db99900_gamegamiblog');
 
 /** MySQL database username */
 define('DB_USER', '1clk_wp_HbVTkpR');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'Su8k4FkJ QIw6BLbO PpLFXEnl Us8iNl5B 4H5kYOwn');
-define('SECURE_AUTH_KEY', '5ydOo7rx TC27M3fI KOjdOV3x qzR2Praq jg5LVzEa');
-define('LOGGED_IN_KEY', 'wWcFxkyP BypBEpIl D26YkbAm gnULwfB2 zH6HMsEX');
-define('NONCE_KEY', 'DxireRZE BBCVmUTs YZLCEBZc P7ecqYfq iTxib3xB');
-define('AUTH_SALT', 'L3kPupOJ 1V8NKDxr W2UGHvxN jS16qlx7 ZsaB6O7D');
-define('SECURE_AUTH_SALT', 'u5YvtP6u j13xhr2y IiKTdwnK 8Bx8L8JZ yxid4geT');
-define('LOGGED_IN_SALT', 'K1NoB6O6 fPjMA4bJ fAzYsywZ cnKanoVF mmBSCOJt');
-define('NONCE_SALT', 'GxKdxcMf APeWvLe5 jjrki7Gn 7HhNu625 YYB6jJ7Z');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
