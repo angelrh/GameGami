@@ -22,6 +22,7 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+ <link rel="stylesheet" type="text/css" href="http://www.gamegami.com/gamegami.css">
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <title><?php
