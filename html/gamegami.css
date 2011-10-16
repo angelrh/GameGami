@@ -25,7 +25,7 @@ body {
 
 #pagecontent {
    
-   height: 550px;
+   height: 900px;
    width: 850px;
    background: #ffffff;
    border: 2px solid #999999;
@@ -93,12 +93,11 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 250px;
-	height: 200px;
-	margin: 20px 10px 0px 20px;
-	float: left;
+	width: 350px;
+	height: 180px;
+	margin: 0px 0px 0px 20px;
 	background: #FFFFFF;
-
+	float: left;
 }
 
 .game_box {
@@ -109,16 +108,17 @@ body {
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	width: 250px;
-	height: 200px;
-	margin: 20px 20px 0px 10px;
-	float: right;
+	width: 350px;
+	height: 180px;
+	margin: 0px 20px 0px 10px;
 	background: #FFFFFF;
+	float: right;
 }
 
 #mainlogo {
 	height: 150px;
-	width: 199px;
+	background: url(logo.png) no-repeat;
+	margin-left: 75px;
 }
 
 .dev_main {
@@ -151,4 +151,87 @@ body {
 
 h1 {
 	margin: 0px 0px 0px 0px;
+}
+
+#submit {
+
+	border: 2px solid #000000;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#94f456), to(#69ae3c));
+	background: -moz-linear-gradient(top,  #94f456,  #69ae3c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#94f456', endColorstr='#69ae3c');
+	font-size: 12px;
+	font-weight: bold;
+	height: 40px;
+	padding: 0px 10px 0px 10px;
+
+}
+
+#submit:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#79c845), to(#69ae3c));
+	background: -moz-linear-gradient(top,  #79c845,  #69ae3c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#79c845', endColorstr='#69ae3c');
+}
+
+#gametext {
+	margin-bottom: 5px;
+}
+
+#screenshots {
+	min-width: 100%;
+	margin-top: 50px;   
+}
+
+#maintext {
+	font-size: 20px;
+	margin: 20px 50px 0px 50px;
+}
+
+#homescreen1 {
+	background: url(screen1.png) no-repeat;
+	height: 312px;
+	width: 175px;
+	float: left;
+	margin-left: 50px;
+	
+}
+
+#homescreen2 {
+	background: url(screen2.png) no-repeat;
+	height: 312px;
+	width: 175px;	
+}
+
+#homescreen3 {
+	background: url(screen3.png) no-repeat;
+	height: 312px;
+	width: 175px;
+	float: right;	
+	margin-top: -317px;
+	margin-right: 50px;
+}
+
+#homescreentext1 {
+	float: left;
+	margin-left: 75px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#homescreentext2 {
+	margin-right: 200px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#homescreentext3 {
+	float: right;
+	margin-right: 50px;
+	margin-top: -17px;
+	font-size: 16px;
 }
