@@ -221,12 +221,14 @@ h1 {
 	margin-left: 75px;
 	font-size: 16px;
 	margin-top: 10px;
+	font-weight: bold;
 }
 
 #homescreentext2 {
 	margin-right: 200px;
 	font-size: 16px;
 	margin-top: 10px;
+	font-weight: bold;
 }
 
 #homescreentext3 {
@@ -234,4 +236,5 @@ h1 {
 	margin-right: 50px;
 	margin-top: -17px;
 	font-size: 16px;
+	font-weight: bold;
 }
