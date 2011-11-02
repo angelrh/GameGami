@@ -1,9 +1,10 @@
 <?php 
 
-$ToEmail = 'brendcurran@gmail.com'; 
+$ToEmail = 'info@gamegami.com'; 
 $EmailSubject = 'GameGami Email Address'; 
 $mailheader = "Content-type: text/html; charset=iso-8859-1\r\n"; 
-$MESSAGE_BODY = "Name: " . $_POST['username'] . "        Email Address: " . $_POST['useremail']; 
+$MESSAGE_BODY = "New Gamer name: " . $_POST['username'];
+$MESSAGE_BODY .= " New Email Address: " . $_POST['useremail'];
 mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); 
 
 
