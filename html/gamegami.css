@@ -1,9 +1,33 @@
+@font-face {
+	font-family: "GamiText";
+	src: url('VAGRounded-Black.otf');
+}
 html,
 body {
    margin:0;
    padding:0;
    height:100%;
    font: 13px/17px 'helvetica neue', arial;
+}
+
+#tagline {
+	font-weight: bold;
+	margin-top: -30px;
+	font-size: 16px;	
+}
+
+#aboutus {
+	width: 600px;
+	margin: 30px;
+	padding: 20px;
+	border: 2px solid #999999;
+   -webkit-border-radius: .5em; 
+   -moz-border-radius: .5em;
+   border-radius: .5em;
+   -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   font-size: 14px;
 }
 #container {
    padding-top: 10px;
@@ -16,17 +40,34 @@ body {
    padding:10px;
 }
 
-#header-border {
-   border-top: 2px solid #999999;
-   -webkit-border-radius: .5em; 
-   -moz-border-radius: .5em;
-   border-radius: .5em;
+#navbar {
+   border: 2px solid #999999;
+   height: 30px;
+   margin: -2px;
+   background: #99c95c;
+   padding-top: 15px;
 }
+
+#navbar a {
+	margin-left: 50px;
+    margin-right: 50px;	
+	font-family: "GamiText";
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+#navbar a:hover {
+	-webkit-text-stroke-width: 1.00px;
+	-moz-text-stroke-width: 1.00px;
+	-webkit-text-stroke-color: white;
+	-moz-text-stroke-color: white;
+} 
 
 #pagecontent {
    
-   height: 900px;
-   width: 850px;
+   height: 1100px;
+   width: 950px;
    background: #ffffff;
    border: 2px solid #999999;
    -webkit-border-radius: .5em; 
@@ -45,7 +86,7 @@ body {
    height:100px;   /* Height of the footer */
    background: url('http://subtlepatterns.com/patterns/dark_brick_wall.png') repeat;
    margin-top: 10px;
-   padding-top: 10px;
+   padding-bottom: 20px;
 }
 
 #footer a {
@@ -118,7 +159,7 @@ body {
 #mainlogo {
 	height: 150px;
 	background: url(logo.png) no-repeat;
-	margin-left: 75px;
+	margin-left: -30px;
 }
 
 .dev_main {
@@ -135,6 +176,8 @@ body {
 	margin-top: 20px;
 	padding: 10px 10px 10px 10px;
 }
+
+
 
 .game_main {
 	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
@@ -237,4 +280,102 @@ h1 {
 	margin-top: -17px;
 	font-size: 16px;
 	font-weight: bold;
+}
+
+#InakiDiv {
+	margin-top: 40px;
+	
+}
+
+#InakiImg {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #999999;
+	background: url('about/avatar_inaki.gif');
+	float: left;
+	clear: both;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	margin-left: 175px;
+
+}
+
+#InakiText {
+	height: 100px;
+	width: 450px;
+	margin-right: 25px;
+	margin-top: -90px;
+	float: right;
+	clear: both;
+	margin-right: 175px;
+	
+}
+
+#InakiLine {
+	border: 2px solid #999999;
+	width: 400px;
+	margin: 190px 0px 40px 0px;
+}
+
+#IsmaelImg {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #999999;
+	background: url('about/ismael-avatar.png');
+	float: left;
+	clear: both;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	margin-left: 175px;
+
+}
+
+#IsmaelText {
+	height: 100px;
+	width: 450px;
+	margin-right: 25px;
+	margin-top: -90px;
+	float: right;
+	clear: both;
+	margin-right: 175px;
+	
+}
+
+#IsmaelLine {
+	border: 2px solid #999999;
+	width: 400px;
+	margin: 190px 0px 40px 0px;
+}
+
+#BrendanImg {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #999999;
+	background: url('about/brendan.png');
+	float: left;
+	clear: both;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	margin-left: 175px;
+}
+
+#BrendanText {
+	height: 100px;
+	width: 450px;
+	margin-right: 175px;
+	margin-top: -95px;
+	float: right;
+	clear: both;
 }
