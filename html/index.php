@@ -33,11 +33,11 @@
 GameGami allows mobile gamers to challenge friends and share results.<br /><br /> All you need is an online social network, a game, and a smart phone.
 </div>
 <div id='screenshots'>
-<div id='homescreen1'></div>
-<div id='homescreen2' align='center'></div>
-<div id='homescreen3' align='right'></div>
+<div id='homescreen1'><img src='screen1.png'></div>
+<div id='homescreen2'><img src='screen2.png'></div>
+<div id='homescreen3' align='right'><img src='screen3.png'></div>
 <div id='homescreentext1'>1. Select a game</div>
-<div id='homescreentext2' align='center'>2. Name your challenge</div>
+<div id='homescreentext2'></div>
 <div id='homescreentext3'>3. Connect with a friend</div>
 </div>
 <div align='center' style='margin-top: 50px;'>
@@ -45,9 +45,9 @@ GameGami allows mobile gamers to challenge friends and share results.<br /><br /
 <div class='game_box'>
 <h2 align='center'>For Gamers</h2><div id='gametext' align='justified'>Discover great games and challenge your friends!</div>
 <form id='emailform' name="input" action="formsubmit.php" method="post">
-<input type="text" placeholder="Enter your name" name="username" id="username" />
+<input type="text" placeholder="Enter your name" name="username" id="username"/><br />
 <input type="text" placeholder="Email" name="useremail" id="useremail" /><br />
-<input type="checkbox" name="vehicle" value="Car" /> <strong>Want to be a VIP Beta User?</strong><br /><br />
+<input type="checkbox" name="vehicle" value="Car" /> <strong style="font-size: 10px;">Want to be a VIP Beta User?</strong><br /><br />
 <input type="submit" value="Sign up for a free app" id="submit"/>
 </form>
 </div>
