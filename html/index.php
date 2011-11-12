@@ -30,20 +30,22 @@
 	printheader();
 ?>
 <div align='center' id='maintext'>
-GameGami allows mobile gamers to challenge friends and share results.<br /><br /> All you need is an online social network, a game, and a smart phone.
+Ready to <span class="GamiText">challenge</span> your <span class="GamiText">friends</span>?!?</br /><br />Get your favorite <span class="GamiText">game</span>, connect through your <span class="GamiText">social network</span> and start the <span class="GamiText">fun</span>!
 </div>
 <div id='screenshots'>
 <div id='homescreen1'><img src='screen1.png'></div>
 <div id='homescreen2'><img src='screen2.png'></div>
 <div id='homescreen3' align='right'><img src='screen3.png'></div>
-<div id='homescreentext1'>1. Select a game</div>
-<div id='homescreentext2'></div>
-<div id='homescreentext3'>3. Connect with a friend</div>
+<div id='homescreentext1'>1-Select a game</div>
+<div id='homescreentext2'><span class="GamiText">2-</span>Connect and<br /> challenge</div>
+<div id='homescreentext3'><span class="GamiText">3-</span>Have fun!</div>
 </div>
-<div align='center' style='margin-top: 50px;'>
-<div class='dev_box'><h2 align='center'>For Developers</h2><div align='center'>Increase the visibility of your game,<br />using our network of users.</div><br /><div class='div_button' align='center'><a href='http://www.gamegami.com/dev'><button class='home_button'>Learn More</button></a></div></div>
+<div align='center' id='bottomboxes'>
+<div class='dev_box' align='left'><div id='devimg' ></div>
+<div id='dev_text'>Increase the visibility of your game,<br />using our network of users.</div><div class='div_button' align='center'><a href='http://www.gamegami.com/dev'><button class='home_button'>Learn More</button></a></div></div>
+<div class='look_box' align='left'><div id='lookimg'></div></div>
 <div class='game_box'>
-<h2 align='center'>For Gamers</h2><div id='gametext' align='justified'>Discover great games and challenge your friends!</div>
+<div id='gamerimg'></div>
 <form id='emailform' name="input" action="formsubmit.php" method="post">
 <input type="text" placeholder="Enter your name" name="username" id="username"/><br />
 <input type="text" placeholder="Email" name="useremail" id="useremail" /><br />

@@ -24,7 +24,7 @@
 
 </script>
 <div id='container'>
-<div align='center'><div id='pagecontent'>
+<div align='center'><div id='aboutcontent'>
 <?
 	printheader();
 ?>
@@ -45,7 +45,13 @@
 <div id="IsmaelLine"></div>
 <div alt="Brendan's page" align="left" id="BrendanDiv">
 <div id='BrendanImg'></div>	
-<div align='justify' id='BrendanText'><strong>Brendan Curran</strong> holds an MS in Information Management and Systems from UC Berkeley. Before returning to school, Brendan contributed his project management and user experience skills as an independent consultant with Microsoft and Google. He has also worked with global development nonprofits like <a href="http://www.kiva.org">Kiva</a> and <a href="http://www.seeyourimpact.org">SeeYourImpact.</div>
+<div align='justify' id='BrendanText'><strong>Brendan Curran</strong> holds an MS in Information Management and Systems from UC Berkeley. Before returning to school, Brendan contributed his project management and user experience skills as an independent consultant with Microsoft and Google. He has also worked with global development nonprofits like <a href="http://www.kiva.org">Kiva</a> and <a href="http://www.seeyourimpact.org">SeeYourImpact.</a></div>
+</div>
+<div id="BrendanLine"></div>
+<div alt="Angel's page" align="left" id="AngelDiv">
+<div id='AngelImg'></div>	
+<div align='justify' id='AngelText'><strong>Ángel Rodríguez</strong> is a Computer Engineer and holds an MS in Information Management and Systems from UC Berkeley. He has four years of experience as the Ground Operations Lead of a European Space Agency in Madrid, Spain. He is focused on solving the technical challenges around GameGami's product development.
+</div>
 </div>
 </div></div>
 </div>

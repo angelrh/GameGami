@@ -63,7 +63,7 @@ body {
 
 #pagecontent {
    
-   height: 1100px;
+   height: 1300px;
    width: 950px;
    background: #ffffff;
    border: 2px solid #999999;
@@ -373,6 +373,37 @@ h1 {
 	width: 450px;
 	margin-right: 175px;
 	margin-top: -95px;
+	float: right;
+	clear: both;
+}
+
+#BrendanLine {
+	border: 2px solid #999999;
+	width: 400px;
+	margin: 190px 0px 40px 0px;
+}
+
+#AngelImg {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #999999;
+	background: url('angel.gif');
+	float: left;
+	clear: both;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
+	margin-left: 175px;
+}
+
+#AngelText {
+	height: 100px;
+	width: 450px;
+	margin-right: 175px;
+	margin-top: -75px;
 	float: right;
 	clear: both;
 }
