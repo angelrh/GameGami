@@ -1,0 +1,145 @@
+<mockup version="1.0" skin="sketch" measuredW="776" measuredH="540" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::MultilineButton" x="525" y="194" w="216" h="147" measuredW="186" measuredH="137" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>GameGami%20message%3A%0A%20%0A%20%0A%20%0A%20%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::ButtonBar" x="525" y="337" w="216" h="29" measuredW="174" measuredH="29" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%2C%2C</hrefs>
+        <text>I%27m%20in%21%20%20%20%2C%20Not%20now</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::iPhone" x="494" y="30" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bgPattern>allWhite</bgPattern>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::ButtonBar" x="525" y="359" w="216" h="29" measuredW="201" measuredH="29" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%2C</hrefs>
+        <selectedIndex>-1</selectedIndex>
+        <text>Block%20Peyton%2C%20GameGami</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::IconLabel" x="551" y="241" w="-1" h="-1" measuredW="60" measuredH="69" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fruit%20Ninja</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::IconLabel" x="655" y="240" w="-1" h="-1" measuredW="48" measuredH="69" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tetris</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="756" y="209" w="-1" h="-1" measuredW="0" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Image" x="655" y="161" w="50" h="47" measuredW="175" measuredH="175" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//images4.fanpop.com/image/photos/19500000/Angry-birds-icon-angry-birds-19584111-175-175.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Image" x="559" y="241" w="50" h="47" measuredW="40" measuredH="37" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../../../I%25C3%25B1aki/My%2520Dropbox/00%2520MBA/03%2520GameGami/mockup/balsamiq%2520screens/FruitNinjaIcon.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Image" x="655" y="240" w="50" h="47" measuredW="40" measuredH="37" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../../../I%25C3%25B1aki/My%2520Dropbox/00%2520MBA/03%2520GameGami/mockup/balsamiq%2520screens/TetrisIcon.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Image" x="559" y="341" w="50" h="47" measuredW="58" measuredH="54" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../../../I%25C3%25B1aki/My%2520Dropbox/00%2520MBA/03%2520GameGami/mockup/balsamiq%2520screens/ninjaIcon.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="655" y="340" w="50" h="47" measuredW="57" measuredH="56" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../../../../I%25C3%25B1aki/My%2520Dropbox/00%2520MBA/03%2520GameGami/mockup/balsamiq%2520screens/sharkIcon.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="555" y="272" w="75" h="23" measuredW="71" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Start%20Time%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="585" y="292" w="46" h="23" measuredW="45" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Points%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="638" y="272" w="75" h="21" measuredW="82" measuredH="20" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>12</size>
+        <text>11/4/11%2023%3A00</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="638" y="292" w="23" h="21" measuredW="27" measuredH="20" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>12</size>
+        <text>100</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="550" y="313" w="89" h="23" measuredW="77" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Match%20Type%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="636" y="313" w="61" h="21" measuredW="61" measuredH="20" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>12</size>
+        <text>Max%20Level</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="533" y="229" w="206" h="21" measuredW="195" measuredH="20" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>12</size>
+        <text>Peyton%20Manning%20has%20challenged%20you%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Label" x="585" y="250" w="48" h="23" measuredW="46" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Game%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="634" y="250" w="75" h="21" measuredW="67" measuredH="20" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>12</size>
+        <text>Angry%20Birds</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Image" x="559" y="160" w="50" h="47" measuredW="155" measuredH="155" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//best-apps.t3.com/wp-content/uploads/2010/10/tetris-icon.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Image" x="559" y="359" w="50" h="47" measuredW="200" measuredH="200" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//4.bp.blogspot.com/-g4pfEvI8Rb0/TakWk1d62nI/AAAAAAAAAAg/ONptFszeIVE/s1600/tiny_wings_icon_200x200x24.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Image" x="655" y="358" w="50" h="47" measuredW="175" measuredH="175" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//4.bp.blogspot.com/-SqekRwAoqM8/TmQ6C1IS7hI/AAAAAAAAAhs/ehOKODYca7U/s1600/FruitNinja+icon.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

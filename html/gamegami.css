@@ -16,39 +16,68 @@ body {
 	font-size: 16px;	
 }
 
+h2 {
+	font-family: "GamiText";
+	margin-top: 50px; 
+	font-size: 24px;
+	text-align: left;
+	margin-left: 50px;
+}
+
 #aboutus {
-	width: 600px;
 	margin: 30px;
 	padding: 20px;
-	border: 2px solid #999999;
-   -webkit-border-radius: .5em; 
-   -moz-border-radius: .5em;
-   border-radius: .5em;
-   -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   font-size: 14px;
+    font-size: 32px;
+    text-align: left;
+    font-family: "GamiText";
+    color: #55a51c;
 }
+
+#abouttext {
+	text-align: left;
+	margin-left: 75px;
+}
+
 #container {
    padding-top: 10px;
    min-height:100%;
    min-width: 100%;
-   background: url('http://subtlepatterns.com/patterns/diagonal-noise.png') repeat;
+   background: #ecac00;
 }
+
 #header {
    background:#ffffff;
    padding:10px;
+   -webkit-border-radius: 1em; 
+   -moz-border-radius: 1em;
+   border-radius: 1em;
 }
 
-#navbar {
-   border: 2px solid #999999;
+#blogheader {
+   border: 3px solid #000000;	
+   background:#ffffff;
+   padding:10px;
+   -webkit-border-radius: 1em; 
+   -moz-border-radius: 1em;
+   border-radius: 1em;
+   height: 200px;
+}
+
+#navbar, #blognavbar {
+   border: 2px solid #000000;
    height: 30px;
    margin: -2px;
-   background: #99c95c;
+   background: #55a51c;
    padding-top: 15px;
+   z-index: 10;
+   position: relative;
 }
 
-#navbar a {
+#blognavbar {
+   margin: -55px 1px -2px 1px;
+}
+
+#navbar a, #blognavbar a {
 	margin-left: 50px;
     margin-right: 50px;	
 	font-family: "GamiText";
@@ -58,7 +87,7 @@ body {
 }
 
 #navbar a:hover {
-	color: #333333;
+	color: #FFFFFF;
 } 
 
 #pagecontent {
@@ -66,10 +95,10 @@ body {
    height: 1000px;
    width: 950px;
    background: #ffffff;
-   border: 2px solid #999999;
-   -webkit-border-radius: .5em; 
-   -moz-border-radius: .5em;
-   border-radius: .5em;
+   border: 3px solid #000000;
+   -webkit-border-radius: 1em; 
+   -moz-border-radius: 1em;
+   border-radius: 1em;
    -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
    -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
    box-shadow: 2px 5px 5px rgba(2,2,2,.2);
@@ -79,7 +108,7 @@ body {
 	height: 1300px;
    width: 950px;
    background: #ffffff;
-   border: 2px solid #999999;
+   border: 2px solid #000000;
    -webkit-border-radius: .5em; 
    -moz-border-radius: .5em;
    border-radius: .5em;
@@ -140,7 +169,7 @@ body {
 	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
@@ -160,7 +189,7 @@ body {
 	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
@@ -173,15 +202,16 @@ body {
 
 #mainlogo {
 	height: 150px;
-	background: url(logo.png) no-repeat;
+	background: url('logo.png') no-repeat;
 	margin-left: -30px;
+	margin-bottom: 5px;
 }
 
 .dev_main {
 	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
@@ -198,7 +228,7 @@ body {
 	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
@@ -338,7 +368,7 @@ h1 {
 #InakiImg {
 	height: 100px;
 	width: 100px;
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	background: url('about/avatar_inaki.gif');
 	float: left;
 	clear: both;
@@ -364,7 +394,7 @@ h1 {
 }
 
 #InakiLine {
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	width: 400px;
 	margin: 190px 0px 40px 0px;
 }
@@ -372,7 +402,7 @@ h1 {
 #IsmaelImg {
 	height: 100px;
 	width: 100px;
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	background: url('about/ismael-avatar.png');
 	float: left;
 	clear: both;
@@ -398,7 +428,7 @@ h1 {
 }
 
 #IsmaelLine {
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	width: 400px;
 	margin: 190px 0px 40px 0px;
 }
@@ -406,7 +436,7 @@ h1 {
 #BrendanImg {
 	height: 100px;
 	width: 100px;
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	background: url('about/brendan.png');
 	float: left;
 	clear: both;
@@ -429,15 +459,15 @@ h1 {
 }
 
 #BrendanLine {
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	width: 400px;
-	margin: 190px 0px 40px 0px;
+	margin: 150px 0px 40px 0px;
 }
 
 #AngelImg {
 	height: 100px;
 	width: 100px;
-	border: 2px solid #999999;
+	border: 2px solid #000000;
 	background: url('about/angel.gif');
 	float: left;
 	clear: both;
@@ -457,4 +487,24 @@ h1 {
 	margin-top: -95px;
 	float: right;
 	clear: both;
+}
+
+#blognavitems {
+	margin-top: -10px;
+}
+
+#apitext {
+	text-align: justify;
+	padding: 40px 100px 0px 100px;
+	font-size: 14px;
+}
+
+.contacttext {
+	text-align: left;
+	padding: 40px 100px 0px 100px;
+	font-size: 14px;
+}
+
+#team {
+	
 }

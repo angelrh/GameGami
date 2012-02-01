@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<? include 'func.php'?>
+	<? include '/nfs/c07/h02/mnt/99900/domains/gamegami.com/html/func.php'; ?>
  <link rel="stylesheet" type="text/css" href="http://www.gamegami.com/gamegami.css">
 <meta charset="utf-8" />
-<title>GameGami :: About</title>
+<title>About GameGami</title>
 <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
+<link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
@@ -24,36 +25,37 @@
 
 </script>
 <div id='container'>
-<div align='center'><div id='aboutcontent'>
+<div ><div id='aboutcontent'>
 <?
 	printheader();
 ?>
 
-<div  align='center'><div class='about_main'>
+<div  >
 	<br />
-	<h1 style="margin-top: 50px; font-size: 32px;">About Us</h1>
-<div id='aboutus' align='justify'>We are a team of passionate gamers from UC Berkeley. We placed 2nd in 2011 in the UC Berkeley Business Plan competition and we believe that we can multiply the fun by inviting or challenging our friends on our favorite mobile games.</div>
-<div alt="Inaki's page" align="left" id="InakiDiv">
+	<div id='aboutus'>GameGami raises the stakes for mobile gaming.</div>
+	<div id='abouttext'>Text about GameGami will go here.</div>
+	<div id="team"><h2>Team</h2></div>
+	<div alt="Angel's bio" id="AngelDiv">
+	<div id='AngelImg'></div>	
+	<div id='AngelText'><strong>Ángel Rodríguez</strong> is GameGami's Android expert and lead engineer. He has four years of experience as the ground operations lead for the International Space Station in Madrid, Spain. Ángel also worked as a license and compliance engineer at Adobe Systems. He is a master's candidate at the UC Berkeley School of Information.
+	</div>
+	</div>
+		<div id="BrendanLine"></div>
+	<div alt="Brendan's bio"  id="BrendanDiv">
+	<div id='BrendanImg'></div>	
+	<div id='BrendanText'><strong>Brendan Curran</strong> drives GameGami's product development and user experience design. In the past, Brendan has fulfilled similar roles as an independent consultant with Microsoft and Google. He has also completed project work with global development nonprofits like <a href="http://www.kiva.org">Kiva</a> and <a href="http://www.seeyourimpact.org">SeeYourImpact.</a> Brendan is a master's candidate at the UC Berkeley School of Information.</div>
+	</div>
+	<div id="InakiLine"></div>
+<div alt="Inaki's bio"  id="InakiDiv">
 <div id='InakiImg'></div>	
-<div align='justify' id='InakiText'><strong>Iñaki Ruiz</strong> holds a Business Administration degree and an MBA from UC Berkeley. He has 12 years of professional experience in Strategic Consulting and the Telecom industry, where he has been Marketing Director for a $500M revenue Business Unit.</div>
-</div>
-<div id="InakiLine"></div>
-<div alt="Ismael's page" align="left" id="IsmaelDiv">
-<div id='IsmaelImg'></div>	
-<div align='justify' id='IsmaelText'><strong>Ismael Ghozael</strong> holds an MSc in Electrical Engineering from Grenoble, France and an MBA from UC Berkeley. He has 6 years of Product Management experience in the mobile phone industry where he created phones for luxury brands and other mass market phones).</div>
+<div id='InakiText'><strong>Iñaki Ruiz</strong> holds a Business Administration degree and will graduate from UC Berkeley's Haas School of Business with an MBA this spring. He has twelve years of experience in strategic consulting and the telecom industry. He formerly served as the marketing director for a $500 million revenue business unit.</div>
 </div>
 <div id="IsmaelLine"></div>
-<div alt="Brendan's page" align="left" id="BrendanDiv">
-<div id='BrendanImg'></div>	
-<div align='justify' id='BrendanText'><strong>Brendan Curran</strong> holds an MS in Information Management and Systems from UC Berkeley. Before returning to school, Brendan contributed his project management and user experience skills as an independent consultant with Microsoft and Google. He has also worked with global development nonprofits like <a href="http://www.kiva.org">Kiva</a> and <a href="http://www.seeyourimpact.org">SeeYourImpact.</a></div>
-</div>
-<div id="BrendanLine"></div>
-<div alt="Angel's page" align="left" id="AngelDiv">
-<div id='AngelImg'></div>	
-<div align='justify' id='AngelText'><strong>Ángel Rodríguez</strong> is a Computer Engineer and holds an MS in Information Management and Systems from UC Berkeley. He has four years of experience as the Ground Operations Lead of a European Space Agency in Madrid, Spain. He is focused on solving the technical challenges around GameGami's product development.
+<div alt="Ismael's bio"  id="IsmaelDiv">
+<div id='IsmaelImg'></div>	
+<div id='IsmaelText'><strong>Ismael Ghozael</strong> earned a MS in electrical engineering in Grenoble, France and will graduate from UC Berkeley's Haas School of Business with an MBA this spring. He has six years of product management experience in the mobile phone industry.</div>
 </div>
 </div>
-</div></div>
 </div>
 </div>
 <? printfooter(); ?>
