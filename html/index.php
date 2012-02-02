@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="gamegami.css">
 <meta charset="utf-8" />
 <title>GameGami</title>
-<meta name="description=" content="GameGami mallows mobile game developers to connect more easily with gamers via our RESTful API. We make gaming more social! ">
+<meta name="description" content="GameGami mallows mobile game developers to connect more easily with gamers via our RESTful API. We make gaming more social! ">
 <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <link rel="shortcut icon" href="favicon.ico">
@@ -27,7 +27,7 @@
 
 </script>
 <div id='container'>
-<div align='center'><div id='pagecontent'>
+<div id='pageContent'>
 <?
 	printheader();
 ?>
@@ -37,14 +37,20 @@ Mobile gaming with a social twist.
 <div id='secondaryText'>
 Virtual contests with real world prizes.
 </div>
-<div>
+<div id="pointOne">
 1. Choose your favorite game.
+<div id="screenOne"></div>
 </div>
-<div>
-2. Challenge a friend through your online social network.
+<div id="pointTwo">
+<div id="pointTwoText">2. Challenge a friend.</div>
+<div id="screenTwo"></div>
 </div>
-<div>
-3. Let the games begin!
+<div id="pointThree">
+3. Convert wins into prizes!
+<div id="screenThree"></div>
+</div>
+<div id="plus">+</div>
+<div id="equals">=</div>
 </div>
 </div>
 <? printfooter(); ?>

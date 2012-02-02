@@ -6,25 +6,9 @@ function printheader() {
 	<div id='navbar'>
 		<div  id='navitems'>
 		<a href='http://www.gamegami.com'>Home</a>
-	    <a href='http://www.gamegami.com/blog'>Blog</a>
+		<a href='http://www.gamegami.com/howitworks'>How it works</a>
 	    <a href='http://www.gamegami.com/api'>API</a>
 	    <a href='http://www.gamegami.com/about'>About us</a>
-	    <a href='http://www.gamegami.com/contact'>Contact</a>
-		</div>
-	</div>";
-	
-}
-
-function printblogheader() {
-	echo "<div id='blogheader'>
-	<div id='mainlogo' name='GameGami'></div><div id='tagline'>Mobile Games Made Social</div></div>
-	<div id='blognavbar'>
-		<div  id='blognavitems'>
-		<a href='http://www.gamegami.com'>Home</a>
-	    <a href='http://www.gamegami.com/blog'>Blog</a>
-	    <a href='http://www.gamegami.com/api'>API</a>
-	    <a href='http://www.gamegami.com/about'>About us</a>
-	    <a href='http://www.gamegami.com/contact'>Contact</a>
 		</div>
 	</div>";
 	
@@ -32,7 +16,6 @@ function printblogheader() {
 
 function printfooter() {
 	echo "<div id='footer'>
-	    <p class='links'>
 	    <div id='social'>
 	<div id='fb-root'></div>
 	<script>(function(d, s, id) {
@@ -49,7 +32,6 @@ function printfooter() {
 	    <g:plusone annotation='inline' width='200'></g:plusone>
 	<div class='fb-like' data-href='www.gamegami.com' data-send='false' data-width='350' data-show-faces='false' data-action='recommend' data-colorscheme='dark'></div>  
 	    </div>
-	</div>
 	</div>
 	    <script type='text/javascript'>
 	      (function() {

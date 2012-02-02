@@ -8,6 +8,8 @@ body {
    padding:0;
    height:100%;
    font: 13px/17px 'helvetica neue', arial;
+   background: #ecac00;
+
 }
 
 #tagline {
@@ -70,7 +72,7 @@ h2 {
    border: 2px solid #000000;
    height: 30px;
    margin: -2px;
-   background: #55a51c;
+   background: #6ab045;
    padding-top: 15px;
    z-index: 10;
    position: relative;
@@ -94,8 +96,8 @@ h2 {
 	color: #FFFFFF;
 } 
 
-#pagecontent {
-   
+#pageContent {
+   text-align: center;
    height: 1000px;
    width: 950px;
    background: #ffffff;
@@ -107,6 +109,7 @@ h2 {
    -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
    box-shadow: 2px 5px 5px rgba(2,2,2,.2);
    margin-left: 4%;
+   margin-bottom: 10px;
 }
 
 #aboutcontent {
@@ -122,14 +125,11 @@ h2 {
    box-shadow: 2px 5px 5px rgba(2,2,2,.2);
    margin-left: 4%;
 }
-#body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
+
 #footer {
    width:100%;
    height:100px;   /* Height of the footer */
-   background: url('http://subtlepatterns.com/patterns/dark_brick_wall.png') repeat;
+   background: #000000;
    margin-top: 10px;
    padding-bottom: 20px;
    text-align: center;
@@ -143,7 +143,6 @@ h2 {
 }
 
 .home_button {
-
 	border: 2px solid #000000;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -158,7 +157,6 @@ h2 {
 	font-weight: bold;
 	height: 40px;
 	padding: 0px 10px 0px 10px;
-
 }
 
 .home_button:hover {
@@ -170,6 +168,66 @@ h2 {
 .div_button {
 	position: relative;
 	top: 10%; 
+}
+
+#screenOne {
+	background: url('screen1.png') center no-repeat;
+	height: 550px;
+	width: 286px;
+	background-size: contain;
+}
+
+#screenTwo {
+	background: url('screen2.png') center no-repeat;
+	height: 550px;
+	width: 286px;
+	float: left;
+	background-size: contain;
+}
+
+#pointOne {
+	float: left;
+	margin-top: 50px;
+	font-family: "GamiText";
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#pointTwo {
+	float: right;
+	font-family: "GamiText";
+	font-size: 20px;
+	margin: 50px 300px 0px 0px;
+	width: 300px;
+	height: 550px;
+}
+
+#pointTwoText {
+	padding-right: 30px;
+}
+
+#pointThree {
+	float: right;
+	font-family: "GamiText";
+	font-size: 20px;
+	margin: -550px 40px 0px 0px;
+	width: 250px;
+	height: 300px;
+}
+
+#plus {
+	font-family: "GamiText";
+	font-size: 70px;
+	float: left;
+	margin-top: -300px;
+}
+
+#equals {
+	font-family: "GamiText";
+	font-size: 70px;
+	float: right;
+	margin-top: -300px;
+	margin-right: 265px;
 }
 
 .dev_box {
@@ -229,8 +287,6 @@ h2 {
 	padding: 10px 10px 10px 10px;
 }
 
-
-
 .game_main {
 	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
 	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
@@ -249,7 +305,6 @@ h1 {
 }
 
 #submit {
-
 	border: 2px solid #000000;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -264,7 +319,6 @@ h1 {
 	font-weight: bold;
 	height: 40px;
 	padding: 0px 10px 0px 10px;
-
 }
 
 #submit:hover {
@@ -290,8 +344,7 @@ h1 {
 #secondaryText {
 	font-size: 26px;
 	margin-top: 30px;
-	color: #55a51c;
-	
+	color: #6ab045;	
 }
 
 .bioImg {
@@ -324,8 +377,7 @@ h1 {
 	text-align: justify;
 	font-size: 14px;
 	line-height: 1.5em;
-	font-family: "Helvetica";
-	
+	font-family: "Helvetica";	
 }
 
 .bioDiv {
@@ -352,6 +404,5 @@ h1 {
 
 #GGBios {
 	width: 100%;
-	height: 600px;
-	
+	height: 600px;	
 }
