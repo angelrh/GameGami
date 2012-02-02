@@ -132,6 +132,7 @@ h2 {
    background: url('http://subtlepatterns.com/patterns/dark_brick_wall.png') repeat;
    margin-top: 10px;
    padding-bottom: 20px;
+   text-align: center;
 }
 
 #footer a {
@@ -181,7 +182,7 @@ h2 {
 	border-radius: .5em;
 	width: 350px;
 	height: 150px;
-	margin: 50px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
 	background: #FFFFFF;
 	float: left;
 }
@@ -281,89 +282,16 @@ h1 {
 	margin-top: 50px;   
 }
 
-#maintext {
-	font-size: 18px;
-	margin: 20px 50px 0px 50px;
+#mainText {
+	font-size: 36px;
+	margin-top: 30px;
 }
 
-#homescreen1 {
-	height: 360px;
-	width: 250px;
-	float: left;
-	margin-left: 10px;	
-}
-
-#homescreen1 img {
-	z-index: 2;
+#secondaryText {
+	font-size: 26px;
+	margin-top: 30px;
+	color: #55a51c;
 	
-}
-
-#homescreen2 {
-	height: 360px;
-	width: 320px;
-	float: left;
-	position: relative;
-	margin-left: -5px;
-}
-
-#homescreen2 img {
-	z-index: 1;
-	
-}
-
-#homescreen3 {
-	height: 350px;
-	width: 270px;
-	float: right;	
-	margin-top: -380px;
-	margin-right: 195px;
-}
-
-#homescreen3 img {
-	z-index: -1;
-}
-
-#homescreentext1 {
-	float: left;
-	font-size: 16px;
-	margin-top: 5px;
-	font-weight: bold;
-	margin-left: 60px;
-	-webkit-transform: rotate(-5deg);	
-	-moz-transform: rotate(-5deg);
-}
-
-#homescreentext2 {
-	margin-right: 450px;
-	font-size: 16px;
-	font-weight: bold;
-}
-
-#homescreentext3 {
-	float: right;
-	margin-right: 320px;
-	margin-top: -60px;
-	font-size: 16px;
-	font-weight: bold;
-	-webkit-transform: rotate(5deg);	
-	-moz-transform: rotate(5deg);
-}
-
-#devimg {
-	background: url('developer.png') no-repeat;
-	width: 140px;
-	height: 40px;
-}
-
-#gamerimg {
-	background: url('gamer.png') no-repeat;
-	width: 140px;
-	height: 40px;
-	padding-bottom: 20px;
-}
-
-.GamiText{
-	font-family: "GamiText";
 }
 
 .bioImg {

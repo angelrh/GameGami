@@ -31,7 +31,7 @@ function printblogheader() {
 }
 
 function printfooter() {
-	echo "<div id='footer' >
+	echo "<div id='footer'>
 	    <p class='links'>
 	    <div id='social'>
 	<div id='fb-root'></div>

@@ -31,7 +31,7 @@
 <?
 	printheader();
 ?>
-<div class="contacttext">If you'd like to ask us a question directly, please feel free to email us at <a href="mailto: info@gamegami.com">info@gamegami.com</a>.</div>
+<div class="contacttext">If you'd like to ask us a question directly, please email us at <a href="mailto: info@gamegami.com">info@gamegami.com</a>.</div>
 <div class="contacttext">If you're interested in hearing about product updates, special offers, and other news, send us your email address and we'll keep you in the loop!</div>
 <br />
 <form id='emailform' name="input" action="formsubmit.php" method="post">
