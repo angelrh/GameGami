@@ -7,7 +7,7 @@
 <title>How it Works</title>
 <script src='//platform.twitter.com/widgets.js' type='text/javascript'></script>
 <script src='http://code.jquery.com/jquery-latest.js'></script>
-<link rel='shortcut icon' href='favicon.ico' />
+<link rel='shortcut icon' href='./favicon.ico' />
 </head>
 
 <body>
