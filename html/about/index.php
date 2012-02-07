@@ -24,16 +24,14 @@
   })();
 
 </script>
-<div id='container'>
-<div id='aboutcontent'>
 <?
 	printheader();
 ?>
 
-	<div id='aboutUs'>GameGami raises the stakes for mobile gaming.</div>
-	<div class='aboutText'>Elevator pitch about GameGami will go here.</div>
+	<div id='aboutUs' class="headerText">GameGami raises the stakes for mobile gaming.</div>
+	<div class='aboutText'>GameGami is the only social gaming platform for mobile devices where your virtual successes can win you physical prizes.</div>
 	<h2>Who we are</h2>
-	<div class='aboutText'>We placed 2nd at the UC-Berkeley Business Plan competition.</div>
+	<div class='aboutText'>GameGami started with great promise, after the initial team placed 2nd in the UC-Berkeley Business Plan competition. Since then, we have grown in size, refined the concept, and laid the foundation for great things to come.</div>
 	<h2>Team</h2>
 	<div id='GGBios'>
 	<div class='bioDiv'>
@@ -52,8 +50,6 @@
 <div class='bioDiv'>
 <div id='IsmaelImg' class='bioImg'></div>	
 <div class='bioText'><strong>Ismael Ghozael</strong> earned a MS in electrical engineering in Grenoble, France and will graduate from UC Berkeley's Haas School of Business with an MBA this spring. He has six years of product management experience in the mobile phone industry.</div>
-</div>
-</div>
 </div>
 <? printfooter(); ?>
 </body>

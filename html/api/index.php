@@ -24,15 +24,12 @@
   })();
 
 </script>
-<div id='container'>
-<div id='aboutcontent'>
 <?
 	printheader();
 ?>
-
-
-</div>
-</div>
+<div id="apiContent">
+	<div class="headerText">Game Developers</div>
+	</div>
 <? printfooter(); ?>
 </body>
 </html>

@@ -24,15 +24,12 @@
   })();
 
 </script>
-<div id='container'>
-<div id='aboutcontent'>
 <?
 	printheader();
 ?>
-
-
-</div>
-</div>
+<div id="worksContent">
+	<div class="headerText">What is GameGami?</div>
+	</div>
 <? printfooter(); ?>
 </body>
 </html>

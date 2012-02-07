@@ -2,7 +2,7 @@
 
 function printheader() {
 	echo "<div id='header'>
-	<div id='mainlogo'></div><div  id='tagline'>Mobile Games Made Social</div></div>
+	<div id='mainlogo'></div></div>
 	<div id='navbar'>
 		<div  id='navitems'>
 		<a href='http://www.gamegami.com'>Home</a>

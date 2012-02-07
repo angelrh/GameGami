@@ -7,16 +7,10 @@ body {
    margin:0;
    padding:0;
    height:100%;
-   font: 13px/17px 'helvetica neue', arial;
-   background: #ecac00;
-
-}
-
-#tagline {
-	font-weight: bold;
-	margin-top: -30px;
-	font-size: 16px;	
-	text-align: right;
+   text-align: justify;
+   font-size: 14px;
+   line-height: 1.5em;
+   font-family: "Helvetica";
 }
 
 h2 {
@@ -29,54 +23,54 @@ h2 {
     
 }
 
-#aboutUs {
+.headerText {
+	font-family: "GamiText";
+    color: #55a51c;
+    font-size: 32px;
 	margin-top: 30px;
 	padding: 20px;
-    font-size: 32px;
+}
+
+#aboutUs {
     text-align: left;
-    font-family: "GamiText";
-    color: #55a51c;
+}
+
+#worksContent {
+	height: 500px;
+	width: 100%;
+}
+
+#apiContent {
+	height: 500px;
+	width: 100%;
 }
 
 .aboutText {
 	text-align: left;
 	margin-left: 75px;
+	width: 675px;
 }
 
-#container {
-   padding-top: 10px;
-   min-height:100%;
-   min-width: 100%;
-   background: #ecac00;
+#aboutPitch {
+	font-size: 24px;
+	line-height: 1.6em;   
 }
 
 #header {
    background:#ffffff;
    padding:10px;
-   -webkit-border-radius: 1em; 
-   -moz-border-radius: 1em;
-   border-radius: 1em;
 }
 
-#blogheader {
-   border: 3px solid #000000;	
-   background:#ffffff;
-   padding:10px;
-   -webkit-border-radius: 1em; 
-   -moz-border-radius: 1em;
-   border-radius: 1em;
-   height: 200px;
-}
-
-#navbar, #blognavbar {
+#navbar {
    border: 2px solid #000000;
    height: 30px;
    margin: -2px;
-   background: #6ab045;
+   background: -webkit-linear-gradient(#99cd55, #7bae36);
    padding-top: 15px;
    z-index: 10;
    position: relative;
    text-align: center;
+   width: 100%;
 }
 
 #blognavbar {
@@ -86,7 +80,6 @@ h2 {
 #navbar a, #blognavbar a {
 	margin-left: 50px;
     margin-right: 50px;	
-	font-family: "GamiText";
 	font-size: 24px;
 	text-decoration: none;
 	color: black;
@@ -99,38 +92,16 @@ h2 {
 #pageContent {
    text-align: center;
    height: 1000px;
-   width: 950px;
-   background: #ffffff;
-   border: 3px solid #000000;
-   -webkit-border-radius: 1em; 
-   -moz-border-radius: 1em;
-   border-radius: 1em;
-   -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   margin-left: 4%;
-   margin-bottom: 10px;
-}
-
-#aboutcontent {
-   height: 1300px;
-   width: 950px;
-   background: #ffffff;
-   border: 2px solid #000000;
-   -webkit-border-radius: .5em; 
-   -moz-border-radius: .5em;
-   border-radius: .5em;
-   -webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   -moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-   margin-left: 4%;
+/*   background: -webkit-gradient(radial, center center, 200, center center, 800, from(white), to(#ecac00));
+*/   min-width: 800px;
+/*   background: -webkit-gradient(radial, center center, 0, center center, 800, from(white), to(#ecac00));
+*/
 }
 
 #footer {
    width:100%;
    height:100px;   /* Height of the footer */
    background: #000000;
-   margin-top: 10px;
    padding-bottom: 20px;
    text-align: center;
 }
@@ -140,29 +111,6 @@ h2 {
   margin: 0px 10px 0px 10px;
   font-size: 18px;
   text-decoration: none;
-}
-
-.home_button {
-	border: 2px solid #000000;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	background: -webkit-gradient(linear, left top, left bottom, from(#94f456), to(#69ae3c));
-	background: -moz-linear-gradient(top,  #94f456,  #69ae3c);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#94f456', endColorstr='#69ae3c');
-	font-size: 18px;
-	font-weight: bold;
-	height: 40px;
-	padding: 0px 10px 0px 10px;
-}
-
-.home_button:hover {
-	background: -webkit-gradient(linear, left top, left bottom, from(#79c845), to(#69ae3c));
-	background: -moz-linear-gradient(top,  #79c845,  #69ae3c);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#79c845', endColorstr='#69ae3c');
 }
 
 .div_button {
@@ -183,6 +131,7 @@ h2 {
 	width: 286px;
 	float: left;
 	background-size: contain;
+	margin: -30px 0 0 10px;
 }
 
 #pointOne {
@@ -194,55 +143,63 @@ h2 {
 }
 
 #pointTwo {
-	float: right;
+	display: inline;
 	font-family: "GamiText";
 	font-size: 20px;
-	margin: 50px 300px 0px 0px;
+	margin: 0px 300px 0px 0px;
 	width: 300px;
 	height: 550px;
 }
 
-#pointTwoText {
-	padding-right: 30px;
-}
-
 #pointThree {
-	float: right;
+	display: inline;
 	font-family: "GamiText";
 	font-size: 20px;
-	margin: -550px 40px 0px 0px;
+	width: 100px;
+	height: 400px;
+}
+
+#pointOneText {
+	margin-left: -40px;
+	cursor: default;
+}
+
+#pointTwoText {
+	width: 200px;
+	margin: 50px 0 0 390px;
+	height: 50px;
+	cursor: default;
+}
+
+#pointThreeText {
 	width: 250px;
-	height: 300px;
+	margin: -315px 0 0 660px;
+	height: 75px;
+	cursor: default;
 }
 
 #plus {
 	font-family: "GamiText";
 	font-size: 70px;
-	float: left;
+	margin-left: 287px;
 	margin-top: -300px;
 }
 
 #equals {
 	font-family: "GamiText";
 	font-size: 70px;
-	float: right;
-	margin-top: -300px;
-	margin-right: 265px;
+	width: 50px;
+	height: 50px;
+	margin-left: 650px;
+	margin-top: 215px;
 }
 
-.dev_box {
-	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #000000;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	width: 350px;
-	height: 150px;
-	margin: 0px 0px 0px 0px;
-	background: #FFFFFF;
-	float: left;
+#money {
+	background: url('money.png') no-repeat center;
+	width: 200px;
+	height: 176px;
+	margin-top: 120px;
+	margin-left: 700px;
 }
 
 #dev_text {
@@ -250,101 +207,30 @@ h2 {
 	font-size: 18px;
 }
 
-.game_box {
-	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #000000;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	width: 175px;
-	height: 230px;
-	margin: -300px 20px 0px 10px;
-	background: #FFFFFF;
-	float: right;
-}
-
 #mainlogo {
-	height: 150px;
+	height: 75px;
 	background: url('logo.png') no-repeat;
-	margin-left: -30px;
-	margin-bottom: 5px;
-}
-
-.dev_main {
-	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #000000;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	width: 600px;
-	height: 320px;
-	background: #FFFFFF;
-	margin-top: 20px;
-	padding: 10px 10px 10px 10px;
-}
-
-.game_main {
-	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	border: 2px solid #000000;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	width: 450px;
-	height: 300px;
-	background: #FFFFFF;
+	background-size: contain;
+	margin-left: -10px;
 }
 
 h1 {
 	margin: 0px 0px 0px 0px;
 }
 
-#submit {
-	border: 2px solid #000000;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	-moz-box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	box-shadow: 2px 5px 5px rgba(2,2,2,.2);
-	background: -webkit-gradient(linear, left top, left bottom, from(#94f456), to(#69ae3c));
-	background: -moz-linear-gradient(top,  #94f456,  #69ae3c);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#94f456', endColorstr='#69ae3c');
-	font-size: 12px;
-	font-weight: bold;
-	height: 40px;
-	padding: 0px 10px 0px 10px;
-}
-
-#submit:hover {
-	background: -webkit-gradient(linear, left top, left bottom, from(#79c845), to(#69ae3c));
-	background: -moz-linear-gradient(top,  #79c845,  #69ae3c);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#79c845', endColorstr='#69ae3c');
-}
-
 #gametext {
 	margin-bottom: 5px;
 }
 
-#screenshots {
-	min-width: 100%;
-	margin-top: 50px;   
-}
-
 #mainText {
-	font-size: 36px;
-	margin-top: 30px;
+	font-size: 50px;
+	height: 30px;
+	margin-top: 65px;
 }
 
 #secondaryText {
 	font-size: 26px;
 	margin-top: 30px;
-	color: #6ab045;	
 }
 
 .bioImg {
@@ -373,11 +259,7 @@ h1 {
 	float: left;
 	margin-left: 200px;
 	margin-top: -100px;
-	clear: both;
-	text-align: justify;
-	font-size: 14px;
-	line-height: 1.5em;
-	font-family: "Helvetica";	
+	clear: both;	
 }
 
 .bioDiv {

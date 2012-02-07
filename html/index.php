@@ -1,7 +1,7 @@
+<?php include '/nfs/c07/h02/mnt/99900/domains/gamegami.com/html/func.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<? include '/nfs/c07/h02/mnt/99900/domains/gamegami.com/html/func.php'; ?>
 <link rel="stylesheet" type="text/css" href="gamegami.css">
 <meta charset="utf-8" />
 <title>GameGami</title>
@@ -9,51 +9,33 @@
 <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <link rel="shortcut icon" href="favicon.ico">
-
 </head>
-
 <body>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-26235804-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<div id='container'>
-<div id='pageContent'>
-<?
-	printheader();
-?>
-<div id='mainText'>
+<div id="pageContent">
+<?	printheader(); ?>
+<div id="homeContent">
+<div id="mainText">
 Mobile gaming with a social twist.
 </div>
-<div id='secondaryText'>
+<div id="secondaryText">
 Virtual contests with real world prizes.
 </div>
 <div id="pointOne">
-1. Choose your favorite game.
+<div id="pointOneText">1. Choose your favorite game.</div>
 <div id="screenOne"></div>
+<div id="plus">+</div>
 </div>
 <div id="pointTwo">
 <div id="pointTwoText">2. Challenge a friend.</div>
 <div id="screenTwo"></div>
 </div>
-<div id="pointThree">
-3. Convert wins into prizes!
-<div id="screenThree"></div>
-</div>
-<div id="plus">+</div>
 <div id="equals">=</div>
+<div id="pointThree">
+<div id="pointThreeText">3. Convert wins into prizes!</div>
+<div id="screenThree"><div id="money"></div></div>
+</div>
 </div>
 </div>
 <? printfooter(); ?>
-
 </body>
 </html>
