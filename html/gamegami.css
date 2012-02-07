@@ -28,7 +28,7 @@ h2 {
     color: #55a51c;
     font-size: 32px;
 	margin-top: 30px;
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
 }
 
 #aboutUs {
@@ -49,6 +49,7 @@ h2 {
 	text-align: left;
 	margin-left: 75px;
 	width: 675px;
+	margin-top: 20px;
 }
 
 #aboutPitch {
@@ -66,11 +67,13 @@ h2 {
    height: 30px;
    margin: -2px;
    background: -webkit-linear-gradient(#99cd55, #7bae36);
-   padding-top: 15px;
+   padding-top: 12px;
+   padding-bottom: 3px;
    z-index: 10;
    position: relative;
    text-align: center;
    width: 100%;
+   min-width: 900px;
 }
 
 #blognavbar {
@@ -91,7 +94,6 @@ h2 {
 
 #pageContent {
    text-align: center;
-   height: 1000px;
 /*   background: -webkit-gradient(radial, center center, 200, center center, 800, from(white), to(#ecac00));
 */   min-width: 800px;
 /*   background: -webkit-gradient(radial, center center, 0, center center, 800, from(white), to(#ecac00));
@@ -104,6 +106,7 @@ h2 {
    background: #000000;
    padding-bottom: 20px;
    text-align: center;
+   min-width: 900px;
 }
 
 #footer a {
@@ -120,23 +123,23 @@ h2 {
 
 #screenOne {
 	background: url('screen1.png') center no-repeat;
-	height: 550px;
-	width: 286px;
+	height: 330px;
+	width: 190px;
 	background-size: contain;
+	margin: 10px 0px 0px 45px;
 }
 
 #screenTwo {
 	background: url('screen2.png') center no-repeat;
-	height: 550px;
-	width: 286px;
+	height: 330px;
+	width: 190px;
 	float: left;
 	background-size: contain;
-	margin: -30px 0 0 10px;
+	margin: -20px 0 0 40px;
 }
 
 #pointOne {
 	float: left;
-	margin-top: 50px;
 	font-family: "GamiText";
 	font-size: 20px;
 	margin-left: 20px;
@@ -146,7 +149,6 @@ h2 {
 	display: inline;
 	font-family: "GamiText";
 	font-size: 20px;
-	margin: 0px 300px 0px 0px;
 	width: 300px;
 	height: 550px;
 }
@@ -166,14 +168,14 @@ h2 {
 
 #pointTwoText {
 	width: 200px;
-	margin: 50px 0 0 390px;
+	margin: 50px 0 0 365px;
 	height: 50px;
 	cursor: default;
 }
 
 #pointThreeText {
 	width: 250px;
-	margin: -315px 0 0 660px;
+	margin: -210px 0 0 650px;
 	height: 75px;
 	cursor: default;
 }
@@ -181,8 +183,8 @@ h2 {
 #plus {
 	font-family: "GamiText";
 	font-size: 70px;
-	margin-left: 287px;
-	margin-top: -300px;
+	margin-left: 270px;
+	margin-top: -200px;
 }
 
 #equals {
@@ -190,21 +192,16 @@ h2 {
 	font-size: 70px;
 	width: 50px;
 	height: 50px;
-	margin-left: 650px;
-	margin-top: 215px;
+	margin-left: 590px;
+	margin-top: 110px;
 }
 
 #money {
 	background: url('money.png') no-repeat center;
 	width: 200px;
 	height: 176px;
-	margin-top: 120px;
-	margin-left: 700px;
-}
-
-#dev_text {
-	margin-left: 20px;
-	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 690px;
 }
 
 #mainlogo {
@@ -218,19 +215,21 @@ h1 {
 	margin: 0px 0px 0px 0px;
 }
 
-#gametext {
-	margin-bottom: 5px;
-}
-
 #mainText {
-	font-size: 50px;
+	font-size: 42px;
 	height: 30px;
-	margin-top: 65px;
+	margin-top: 40px;
 }
 
 #secondaryText {
 	font-size: 26px;
-	margin-top: 30px;
+	margin-top: 20px;
+}
+
+#phones {
+	margin-top: -20px;
+	width: 100%;
+	height: 400px;
 }
 
 .bioImg {
@@ -268,16 +267,6 @@ h1 {
 	height: 120px;
 }
 
-#blognavitems {
-	margin-top: -10px;
-}
-
-#apitext {
-	text-align: justify;
-	padding: 40px 100px 0px 100px;
-	font-size: 14px;
-}
-
 .contacttext {
 	text-align: left;
 	padding: 40px 100px 0px 100px;
@@ -287,4 +276,21 @@ h1 {
 #GGBios {
 	width: 100%;
 	height: 600px;	
+}
+
+.worksText {
+	margin-left: 75px;
+	width: 750px;
+	margin-top: 20px;
+}
+
+.apiText {
+	margin-left: 75px;
+	width: 750px;
+	margin-top: 20px;
+}
+
+#apiSpace {
+	height: 50px;
+	width: 100%;
 }

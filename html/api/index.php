@@ -29,7 +29,16 @@
 ?>
 <div id="apiContent">
 	<div class="headerText">Game Developers</div>
+	<div class="apiText">
+		The GameGami API is extremely simple and easy to integrate into fully developed  games. Using a RESTful architectural style, our system takes care of all the heavy lifting, so developers can kiss concerns about scaling goodbye!</div>
+		<div class="apiText">
+		GameGami also knows how important it is to keep players in the game once they've fired it up. Our API allows users to issue challenges and access their results without having to exit the game. 
+		</div>
+		<div class="headerText">How can I get started?</div>
+		<div class="apiText">
+		We're currently in the development stage, but if you're interested in sharing feedback about the product, or helping us iron out the kinks, we'd love to hear from you. Please shoot us an email at <a href="mailto:info@gamegami.com">info@gamegami.com</a>.
 	</div>
+	<div id="apiSpace"></div>
 <? printfooter(); ?>
 </body>
 </html>

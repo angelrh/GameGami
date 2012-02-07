@@ -13,13 +13,13 @@
 <body>
 <div id="pageContent">
 <?	printheader(); ?>
-<div id="homeContent">
 <div id="mainText">
 Mobile gaming with a social twist.
 </div>
 <div id="secondaryText">
 Virtual contests with real world prizes.
 </div>
+<div id="phones">
 <div id="pointOne">
 <div id="pointOneText">1. Choose your favorite game.</div>
 <div id="screenOne"></div>
