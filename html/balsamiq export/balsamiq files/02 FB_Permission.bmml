@@ -1,0 +1,79 @@
+<mockup version="1.0" skin="sketch" measuredW="374" measuredH="435" mockupW="224" mockupH="275">
+  <controls>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Canvas" x="150" y="160" w="224" h="39" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="196" y="169" w="163" h="25" measuredW="136" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Request%20For%20Permission</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Image" x="291" y="207" w="68" h="74" measuredW="400" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./GameGami.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="__group__" x="155" y="287" w="215" h="83" measuredW="215" measuredH="83" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="24" y="30" w="-1" h="-1" measuredW="95" measuredH="23" zOrder="0" locked="false" isInGroup="61">
+          <controlProperties>
+            <text>Send%20me%20email</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="24" y="60" w="-1" h="-1" measuredW="191" measuredH="23" zOrder="1" locked="false" isInGroup="61">
+          <controlProperties>
+            <text>Access%20my%20friends%20information</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="24" y="0" w="-1" h="-1" measuredW="178" measuredH="23" zOrder="2" locked="false" isInGroup="61">
+          <controlProperties>
+            <text>Access%20my%20basic%20information</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Image" x="0" y="1" w="20" h="20" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="61">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="0" y="31" w="20" h="20" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="61">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="0" y="61" w="20" h="20" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="61">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="155" y="206" w="214" h="40" measuredW="308" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>12</size>
+        <text>*%5BGameGami%5D*%20is%20requesting%20permission%20to%20do%20the%20following%3A</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="188" y="407" w="60" h="28" measuredW="70" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2238%2C247%2C98%2C275%22%20href%3D%2203%2520Main%2520Home.bmml%22%20alt%3D%2203%20Main%20Home%22%20id%3D%2263%22/%3E</map>
+        <text>Accept%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Button" x="276" y="407" w="-1" h="-1" measuredW="53" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>01%20login%26bm%3B01%20login.bmml%26bm%3B01%20login.bmml%26bm%3B01%20login.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22126%2C247%2C179%2C275%22%20href%3D%2201%2520login.bmml%22%20alt%3D%2201%20login%22%20id%3D%2264%22/%3E</map>
+        <text>Deny</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

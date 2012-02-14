@@ -1,0 +1,173 @@
+<mockup version="1.0" skin="sketch" measuredW="388" measuredH="459" mockupW="257" mockupH="331">
+  <controls>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="353" y="200" w="-1" h="-1" measuredW="0" measuredH="23" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::SubTitle" x="153" y="128" w="-1" h="-1" measuredW="206" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Winner%20Pays%20for%20Lunch%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="153" y="167" w="45" h="47" measuredW="175" measuredH="175" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>http%3A//images4.fanpop.com/image/photos/19500000/Angry-birds-icon-angry-birds-19584111-175-175.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::HRule" x="133" y="291" w="255" h="-1" measuredW="100" measuredH="5" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::FieldSet" x="133" y="149" w="255" h="230" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Label" x="165" y="303" w="205" h="24" measuredW="171" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>I%20knew%20I%27d%20win%20that%20round%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Image" x="137" y="302" w="30" h="31" measuredW="89" measuredH="90" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./bob.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="139" y="337" w="30" h="31" measuredW="112" measuredH="142" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./mark.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Label" x="165" y="318" w="65" h="19" measuredW="64" measuredH="19" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>11/2/11%2019%3A12</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::HRule" x="143" y="334" w="225" h="-1" measuredW="100" measuredH="5" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Label" x="165" y="357" w="80" h="24" measuredW="66" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>11/2/11%2016%3A03</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Label" x="167" y="341" w="205" h="24" measuredW="73" measuredH="23" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>I%20hate%20you.</text>
+      </controlProperties>
+    </control>
+    <control controlID="94" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="368" y="296" w="-1" h="82" measuredW="16" measuredH="100" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Label" x="246" y="166" w="-1" h="-1" measuredW="42" measuredH="23" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Game%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Label" x="289" y="165" w="-1" h="-1" measuredW="74" measuredH="23" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Angry%20Birds</text>
+      </controlProperties>
+    </control>
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Label" x="215" y="184" w="86" h="23" measuredW="72" measuredH="23" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Opponents%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Label" x="217" y="227" w="-1" h="-1" measuredW="71" measuredH="23" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Points%20bet%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::Label" x="208" y="205" w="-1" h="-1" measuredW="81" measuredH="23" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Last%20winner%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Label" x="287" y="184" w="-1" h="-1" measuredW="35" measuredH="23" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Mark</text>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Label" x="290" y="205" w="-1" h="-1" measuredW="26" measuredH="23" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>Bob</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Label" x="289" y="226" w="-1" h="-1" measuredW="27" measuredH="23" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <text>400</text>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::TextInput" x="135" y="378" w="251" h="-1" measuredW="137" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <state>up</state>
+        <text>Enter%20Your%20Comment</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Button" x="255" y="254" w="-1" h="-1" measuredW="48" measuredH="28" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>9684093</color>
+        <href>07_02_challenge_Edit%26bm%3B07_02_challenge_Edit.bmml%26bm%3B07_02_challenge_Edit.bmml%26bm%3B07_02_challenge_Edit.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22124%2C126%2C172%2C154%22%20href%3D%2207_02_challenge_Edit.bmml%22%20alt%3D%2207_02_challenge_Edit%22%20id%3D%22107%22/%3E</map>
+        <text>Edit</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Button" x="190" y="254" w="-1" h="-1" measuredW="58" measuredH="28" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>9684093</color>
+        <href>07_04_Play%26bm%3B07_04_Play.bmml%26bm%3B07_04_Play.bmml%26bm%3B07_04_Play.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2259%2C126%2C117%2C154%22%20href%3D%2207_04_Play.bmml%22%20alt%3D%2207_04_Play%22%20id%3D%22108%22/%3E</map>
+        <text>Play%20%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::IconLabel" x="135" y="412" w="-1" h="-1" measuredW="37" measuredH="47" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <href>03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml</href>
+        <icon>HomeMobileIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%224%2C284%2C41%2C331%22%20href%3D%2203%2520Main%2520Home.bmml%22%20alt%3D%2203%20Main%20Home%22%20id%3D%22109%22/%3E</map>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::IconLabel" x="248" y="412" w="-1" h="-1" measuredW="44" measuredH="47" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>10_01_gamesHome%26bm%3B10_01_gamesHome.bmml%26bm%3B10_01_gamesHome.bmml%26bm%3B10_01_gamesHome.bmml</href>
+        <icon>RedditIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22117%2C284%2C161%2C331%22%20href%3D%2210_01_gamesHome.bmml%22%20alt%3D%2210_01_gamesHome%22%20id%3D%22110%22/%3E</map>
+        <text>Games</text>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::IconLabel" x="303" y="411" w="-1" h="-1" measuredW="74" measuredH="47" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>11_pointsHome%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml</href>
+        <icon>ShiftIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22172%2C283%2C246%2C330%22%20href%3D%2211_pointsHome.bmml%22%20alt%3D%2211_pointsHome%22%20id%3D%22111%22/%3E</map>
+        <text>GameGamis</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::IconLabel" x="178" y="412" w="-1" h="-1" measuredW="63" measuredH="47" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <href>04_01_create_challenge1%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml</href>
+        <icon>ContactsIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2247%2C284%2C110%2C331%22%20href%3D%2204_01_create_challenge1.bmml%22%20alt%3D%2204_01_create_challenge1%22%20id%3D%22112%22/%3E</map>
+        <text>Challenge</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::VRule" x="175" y="407" w="-1" h="49" measuredW="5" measuredH="100" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::VRule" x="241" y="407" w="-1" h="48" measuredW="5" measuredH="100" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::VRule" x="295" y="408" w="-1" h="47" measuredW="5" measuredH="100" zOrder="30" locked="false" isInGroup="-1"/>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::HRule" x="131" y="405" w="255" h="-1" measuredW="100" measuredH="5" zOrder="31" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

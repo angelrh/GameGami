@@ -28,8 +28,6 @@
 	printheader();
 ?>
 
-	<div id='aboutUs' class="headerText">GameGami raises the stakes for mobile gaming.</div>
-	<div class='aboutText'>GameGami is the only social gaming platform for mobile devices where your virtual successes can win you physical prizes.</div>
 	<h2>Who we are</h2>
 	<div class='aboutText'>GameGami started with great promise, after the initial team placed 2nd in the UC-Berkeley Business Plan competition. Since then, we have grown in size, refined the concept, and laid the foundation for great things to come.</div>
 	<h2>Team</h2>
@@ -45,7 +43,7 @@
 	</div>
 <div class='bioDiv'>
 <div id='InakiImg' class='bioImg'></div>	
-<div class='bioText'><strong>Iñaki Ruiz</strong> holds a Business Administration degree and will graduate from UC Berkeley's Haas School of Business with an MBA this spring. He has twelve years of experience in strategic consulting and the telecom industry. He formerly served as the marketing director for a $500 million revenue business unit.</div>
+<div class='bioText'><strong>Iñaki Ruiz</strong> holds a Business Administration degree and will graduate from UC Berkeley's Haas School of Business with an MBA this spring. He has twelve years of experience in strategic consulting and telecommunications. He formerly served as the marketing director for a $500 million revenue business unit.</div>
 </div>
 <div class='bioDiv'>
 <div id='IsmaelImg' class='bioImg'></div>	

@@ -19,21 +19,17 @@ Mobile gaming with a social twist.
 <div id="secondaryText">
 Virtual contests with real world prizes.
 </div>
+<div id="pointText">
+	<div id="pointOneText">1. Choose your favorite game.</div>
+	<div id="pointTwoText">2. Challenge a friend.</div>
+	<div id="pointThreeText">3. Convert wins into prizes!</div>	
+</div>
 <div id="phones">
-<div id="pointOne">
-<div id="pointOneText">1. Choose your favorite game.</div>
 <div id="screenOne"></div>
 <div id="plus">+</div>
-</div>
-<div id="pointTwo">
-<div id="pointTwoText">2. Challenge a friend.</div>
 <div id="screenTwo"></div>
-</div>
 <div id="equals">=</div>
-<div id="pointThree">
-<div id="pointThreeText">3. Convert wins into prizes!</div>
-<div id="screenThree"><div id="money"></div></div>
-</div>
+<div id="money"></div>
 </div>
 </div>
 <? printfooter(); ?>
