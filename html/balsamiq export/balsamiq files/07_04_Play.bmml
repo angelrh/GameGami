@@ -13,8 +13,8 @@
     </control>
     <control controlID="104" controlTypeID="com.balsamiq.mockups::Label" x="528" y="323" w="50" h="33" measuredW="42" measuredH="23" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22379%2C217%2C429%2C250%22%20href%3D%2203%2520Main%2520Home.bmml%22%20alt%3D%2203%20Main%20Home%22%20id%3D%22104%22/%3E</map>
+        <href>03%20Main%20HomeAccept2%26bm%3B03%20Main%20HomeAccept2.bmml%26bm%3B03%20Main%20HomeAccept2.bmml%26bm%3B03%20Main%20HomeAccept2.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22379%2C217%2C429%2C250%22%20href%3D%2203%2520Main%2520HomeAccept2.bmml%22%20alt%3D%2203%20Main%20HomeAccept2%22%20id%3D%22104%22/%3E</map>
         <text>%20%20%20%20%20%20%20</text>
       </controlProperties>
     </control>

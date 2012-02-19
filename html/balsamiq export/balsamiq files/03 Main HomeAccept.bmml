@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" measuredW="397" measuredH="445" mockupW="320" mockupH="344">
+<mockup version="1.0" skin="sketch" measuredW="397" measuredH="445" mockupW="320" mockupH="341">
   <controls>
     <control controlID="6" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="365" y="185" w="-1" h="-1" measuredW="0" measuredH="23" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -10,16 +10,16 @@
         <text>John%20Doe</text>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="192" y="128" w="153" h="19" measuredW="152" measuredH="23" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="192" y="128" w="153" h="19" measuredW="115" measuredH="23" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>GameGami%20Points%3A%201%2C650</text>
+        <text>GameGamis%3A%201%2C650</text>
       </controlProperties>
     </control>
     <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="263" y="104" w="65" h="23" measuredW="55" measuredH="23" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <href>12_01_settings%26bm%3B12_01_settings.bmml%26bm%3B12_01_settings.bmml%26bm%3B12_01_settings.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22186%2C3%2C251%2C26%22%20href%3D%2212_01_settings.bmml%22%20alt%3D%2212_01_settings%22%20id%3D%2220%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22186%2C0%2C251%2C23%22%20href%3D%2212_01_settings.bmml%22%20alt%3D%2212_01_settings%22%20id%3D%2220%22/%3E</map>
         <text>Settings</text>
       </controlProperties>
     </control>
@@ -52,7 +52,7 @@
       <controlProperties>
         <color>9684093</color>
         <href>04_01_create_challenge1%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2282%2C243%2C237%2C271%22%20href%3D%2204_01_create_challenge1.bmml%22%20alt%3D%2204_01_create_challenge1%22%20id%3D%2257%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2282%2C240%2C237%2C268%22%20href%3D%2204_01_create_challenge1.bmml%22%20alt%3D%2204_01_create_challenge1%22%20id%3D%2257%22/%3E</map>
         <text>Create%20new%20challenge</text>
       </controlProperties>
     </control>
@@ -60,7 +60,7 @@
       <controlProperties>
         <href>11_pointsHome%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml</href>
         <icon>ShiftIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22223%2C280%2C264%2C327%22%20href%3D%2211_pointsHome.bmml%22%20alt%3D%2211_pointsHome%22%20id%3D%2260%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22223%2C277%2C264%2C324%22%20href%3D%2211_pointsHome.bmml%22%20alt%3D%2211_pointsHome%22%20id%3D%2260%22/%3E</map>
         <text>Points</text>
       </controlProperties>
     </control>
@@ -74,7 +74,7 @@
       <controlProperties>
         <color>9684093</color>
         <href>07_01_challenge%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22176%2C119%2C220%2C145%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2268%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22176%2C116%2C220%2C142%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2268%22/%3E</map>
         <size>10</size>
         <text>Accept</text>
       </controlProperties>
@@ -109,7 +109,7 @@
       <controlProperties>
         <borderStyle>square</borderStyle>
         <href>07_01_challenge%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2261%2C211%2C86%2C236%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2282%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2261%2C208%2C86%2C233%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2282%22/%3E</map>
         <src>http%3A//images.wikia.com/ssb/images/9/97/Icon-zelda.gif</src>
         <text/>
       </controlProperties>
@@ -117,14 +117,14 @@
     <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="319" y="170" w="19" h="23" measuredW="10" measuredH="23" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <href>09_pendingChallenges%26bm%3B09_pendingChallenges.bmml%26bm%3B09_pendingChallenges.bmml%26bm%3B09_pendingChallenges.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22242%2C69%2C261%2C92%22%20href%3D%2209_pendingChallenges.bmml%22%20alt%3D%2209_pendingChallenges%22%20id%3D%2283%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22242%2C66%2C261%2C89%22%20href%3D%2209_pendingChallenges.bmml%22%20alt%3D%2209_pendingChallenges%22%20id%3D%2283%22/%3E</map>
         <text>%20</text>
       </controlProperties>
     </control>
     <control controlID="84" controlTypeID="com.balsamiq.mockups::Image" x="136" y="105" w="47" h="49" measuredW="100" measuredH="100" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <src>../../../../Sites/GameGami/html/about/brendan.png</src>
+        <src>./brendan.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -132,7 +132,7 @@
       <controlProperties>
         <borderStyle>square</borderStyle>
         <href>07_01_challenge%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2259%2C182%2C84%2C207%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2285%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2259%2C179%2C84%2C204%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2285%22/%3E</map>
         <src>http%3A//images4.fanpop.com/image/photos/19500000/Angry-birds-icon-angry-birds-19584111-175-175.png</src>
         <text/>
       </controlProperties>
@@ -149,58 +149,58 @@
         <borderStyle>none</borderStyle>
       </controlProperties>
     </control>
-    <control controlID="88" controlTypeID="com.balsamiq.mockups::IconLabel" x="123" y="384" w="-1" h="-1" measuredW="37" measuredH="47" zOrder="24" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>none</borderStyle>
-        <href>03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml</href>
-        <icon>HomeMobileIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2246%2C283%2C83%2C330%22%20href%3D%2203%2520Main%2520Home.bmml%22%20alt%3D%2203%20Main%20Home%22%20id%3D%2288%22/%3E</map>
-        <text>Home</text>
-      </controlProperties>
-    </control>
-    <control controlID="89" controlTypeID="com.balsamiq.mockups::IconLabel" x="236" y="384" w="-1" h="-1" measuredW="44" measuredH="47" zOrder="25" locked="false" isInGroup="-1">
-      <controlProperties>
-        <href>10_01_gamesHome%26bm%3B10_01_gamesHome.bmml%26bm%3B10_01_gamesHome.bmml%26bm%3B10_01_gamesHome.bmml</href>
-        <icon>RedditIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C283%2C203%2C330%22%20href%3D%2210_01_gamesHome.bmml%22%20alt%3D%2210_01_gamesHome%22%20id%3D%2289%22/%3E</map>
-        <text>Games</text>
-      </controlProperties>
-    </control>
-    <control controlID="90" controlTypeID="com.balsamiq.mockups::IconLabel" x="291" y="383" w="-1" h="-1" measuredW="74" measuredH="47" zOrder="26" locked="false" isInGroup="-1">
-      <controlProperties>
-        <href>11_pointsHome%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml</href>
-        <icon>ShiftIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22214%2C282%2C288%2C329%22%20href%3D%2211_pointsHome.bmml%22%20alt%3D%2211_pointsHome%22%20id%3D%2290%22/%3E</map>
-        <text>GameGamis</text>
-      </controlProperties>
-    </control>
-    <control controlID="91" controlTypeID="com.balsamiq.mockups::IconLabel" x="166" y="384" w="-1" h="-1" measuredW="63" measuredH="47" zOrder="27" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>none</borderStyle>
-        <href>04_01_create_challenge1%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml</href>
-        <icon>ContactsIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2289%2C283%2C152%2C330%22%20href%3D%2204_01_create_challenge1.bmml%22%20alt%3D%2204_01_create_challenge1%22%20id%3D%2291%22/%3E</map>
-        <text>Challenge</text>
-      </controlProperties>
-    </control>
-    <control controlID="92" controlTypeID="com.balsamiq.mockups::VRule" x="163" y="379" w="-1" h="49" measuredW="5" measuredH="100" zOrder="28" locked="false" isInGroup="-1"/>
-    <control controlID="93" controlTypeID="com.balsamiq.mockups::VRule" x="229" y="379" w="-1" h="48" measuredW="5" measuredH="100" zOrder="29" locked="false" isInGroup="-1"/>
-    <control controlID="94" controlTypeID="com.balsamiq.mockups::VRule" x="283" y="380" w="-1" h="47" measuredW="5" measuredH="100" zOrder="30" locked="false" isInGroup="-1"/>
-    <control controlID="95" controlTypeID="com.balsamiq.mockups::HRule" x="119" y="377" w="255" h="-1" measuredW="100" measuredH="5" zOrder="31" locked="false" isInGroup="-1"/>
-    <control controlID="96" controlTypeID="com.balsamiq.mockups::ModalScreen" x="77" y="101" w="320" h="330" measuredW="320" measuredH="240" zOrder="32" locked="false" isInGroup="-1"/>
-    <control controlID="97" controlTypeID="com.balsamiq.mockups::Canvas" x="136" y="198" w="209" h="102" measuredW="100" measuredH="70" zOrder="33" locked="false" isInGroup="-1"/>
-    <control controlID="98" controlTypeID="com.balsamiq.mockups::Button" x="205" y="258" w="63" h="28" measuredW="41" measuredH="28" zOrder="34" locked="false" isInGroup="-1">
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::ModalScreen" x="77" y="105" w="320" h="330" measuredW="320" measuredH="240" zOrder="24" locked="false" isInGroup="-1"/>
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::Canvas" x="136" y="198" w="209" h="102" measuredW="100" measuredH="70" zOrder="25" locked="false" isInGroup="-1"/>
+    <control controlID="98" controlTypeID="com.balsamiq.mockups::Button" x="205" y="258" w="63" h="28" measuredW="41" measuredH="28" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <color>11982760</color>
-        <href>07_01_challenge%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml%26bm%3B07_01_challenge.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22128%2C157%2C191%2C185%22%20href%3D%2207_01_challenge.bmml%22%20alt%3D%2207_01_challenge%22%20id%3D%2298%22/%3E</map>
+        <href>03%20Main%20HomeDeny%26bm%3B03%20Main%20HomeDeny.bmml%26bm%3B03%20Main%20HomeDeny.bmml%26bm%3B03%20Main%20HomeDeny.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22128%2C154%2C191%2C182%22%20href%3D%2203%2520Main%2520HomeDeny.bmml%22%20alt%3D%2203%20Main%20HomeDeny%22%20id%3D%2298%22/%3E</map>
         <text>OK</text>
       </controlProperties>
     </control>
-    <control controlID="99" controlTypeID="com.balsamiq.mockups::Label" x="170" y="220" w="148" h="23" measuredW="127" measuredH="23" zOrder="35" locked="false" isInGroup="-1">
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Label" x="170" y="220" w="148" h="23" measuredW="127" measuredH="23" zOrder="27" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Challenge%20Accepted%21</text>
       </controlProperties>
     </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::IconLabel" x="120" y="384" w="-1" h="-1" measuredW="37" measuredH="47" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <href>03%20Main%20Home%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml%26bm%3B03%20Main%20Home.bmml</href>
+        <icon>HomeMobileIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2243%2C280%2C80%2C327%22%20href%3D%2203%2520Main%2520Home.bmml%22%20alt%3D%2203%20Main%20Home%22%20id%3D%22108%22/%3E</map>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::IconLabel" x="249" y="384" w="-1" h="-1" measuredW="44" measuredH="47" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>10_01_gamesHome%26bm%3B10_01_gamesHome.bmml%26bm%3B10_01_gamesHome.bmml%26bm%3B10_01_gamesHome.bmml</href>
+        <icon>RedditIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22172%2C280%2C216%2C327%22%20href%3D%2210_01_gamesHome.bmml%22%20alt%3D%2210_01_gamesHome%22%20id%3D%22109%22/%3E</map>
+        <text>Games</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::IconLabel" x="313" y="385" w="-1" h="-1" measuredW="48" measuredH="47" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>11_pointsHome%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml%26bm%3B11_pointsHome.bmml</href>
+        <icon>PortletHelpIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22236%2C281%2C284%2C328%22%20href%3D%2211_pointsHome.bmml%22%20alt%3D%2211_pointsHome%22%20id%3D%22110%22/%3E</map>
+        <text>History</text>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::IconLabel" x="171" y="384" w="-1" h="-1" measuredW="63" measuredH="47" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <href>04_01_create_challenge1%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml%26bm%3B04_01_create_challenge1.bmml</href>
+        <icon>ContactsIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2294%2C280%2C157%2C327%22%20href%3D%2204_01_create_challenge1.bmml%22%20alt%3D%2204_01_create_challenge1%22%20id%3D%22111%22/%3E</map>
+        <text>Challenge</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::VRule" x="164" y="379" w="-1" h="49" measuredW="5" measuredH="100" zOrder="32" locked="false" isInGroup="-1"/>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::VRule" x="238" y="379" w="-1" h="48" measuredW="5" measuredH="100" zOrder="33" locked="false" isInGroup="-1"/>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::VRule" x="302" y="380" w="-1" h="47" measuredW="5" measuredH="100" zOrder="34" locked="false" isInGroup="-1"/>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::HRule" x="114" y="377" w="255" h="-1" measuredW="100" measuredH="5" zOrder="35" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>
